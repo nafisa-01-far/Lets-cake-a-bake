@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bakery Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Let's Cake a Bake</h1>
+    <nav>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="menu">
+    <h2>Our Delicious Menu</h2>
+    <div class="products">
+      <div class="product">
+        <h3>Chocolate Cake</h3>
+        <button onclick="addToCart('Chocolate Cake')">Add to Cart</button>
+      </div>
+      <div class="product">
+        <h3>Butter Cookies</h3>
+        <button onclick="addToCart('Butter Cookies')">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Welcome to Let's Cake a Bake! We create delicious, homemade desserts with a modern twist.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name">
+      <input type="email" placeholder="Your Email">
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Let's Cake a Bake</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
